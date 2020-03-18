@@ -1,25 +1,13 @@
 <app-person-card
-  [id]="person.id"
-  [name]="person.name"
-  [lastName]="person.lastName"
-  [birthDate]="person.birthDate"
-  [deathDate]="person.deathDate"
-  [country]="person.country"
+  [person]="person"
   spouseName="????"
-  [gender]="person.gender"
   [isSelected]="false">
 </app-person-card>
 
 <div class="person-group">
   <app-person-card *ngFor="let person of children"
-    [id]="person.id"
-    [name]="person.name"
-    [lastName]="person.lastName"
-    [birthDate]="person.birthDate"
-    [deathDate]="person.deathDate"
-    [country]="person.country"
+    [person]="person"
     spouseName="????"
-    [gender]="person.gender"
     [isSelected]="false">
   </app-person-card>
 </div>

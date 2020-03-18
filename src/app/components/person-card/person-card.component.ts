@@ -1,4 +1,5 @@
-import {Component, Input, ViewEncapsulation} from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
+import { Person } from '../../types';
 
 @Component({
   selector: 'app-person-card',
@@ -7,13 +8,7 @@ import {Component, Input, ViewEncapsulation} from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class PersonCardComponent {
-  @Input() birthDate: string;
-  @Input() deathDate: string;
-  @Input() country: string;
-  @Input() gender: 'male' | 'female';
-  @Input() lastName: string;
-  @Input() name: string;
-  @Input() id: number;
+  @Input() person: Person;
   @Input() spouseName?: string;
   @Input() isSelected?: boolean;
 
