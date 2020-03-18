@@ -1,0 +1,7 @@
+<div *ngIf="this.loading">Loading...</div>
+<app-siblings
+  *ngIf="!this.loading"
+  [peopleIds]="[1]"
+  [people]="this.people"
+  [relationships]="this.relationships"
+></app-siblings>

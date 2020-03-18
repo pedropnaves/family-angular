@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,gBAAgB;EAC5B,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK",
+"sources": ["person-card.component.scss"],
+"names": [],
+"file": "person-card.component.css"
+}

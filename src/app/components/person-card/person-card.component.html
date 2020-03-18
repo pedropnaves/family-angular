@@ -1,0 +1,10 @@
+<div class="card">
+  <ul>
+    <li>Name: {{this.name}} {{this.lastName}}</li>
+    <li>Gender: {{this.gender}}</li>
+    <li *ngIf="this.spouseName">Spouse: {{this.spouseName}}</li>
+    <li>Country: {{this.country}}</li>
+    <li>Birth date: {{this.birthDate}}</li>
+    <li *ngIf="this.deathDate">Death date: {{this.deathDate}}</li>
+  </ul>
+</div>
